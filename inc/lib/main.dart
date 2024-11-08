@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:inc/phonepay.dart'; 
+// import 'package:inc/phonepay.dart';
+import 'package:inc/socialmedia.dart'; 
 void main(){
   runApp(Mypay()
   
@@ -13,7 +14,7 @@ class Mypay extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:const Myphonepay(),
+      home:const Mysocialmedia(),
     );
   }
 }
